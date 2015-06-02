@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:background="@color/background_material_light"
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+
+
+
+    <TextView android:id="@+id/lblTotalDocks"
+              android:text="Total Docks"
+              android:layout_alignParentTop="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView
+            android:id="@+id/totalDocks"
+            android:layout_toRightOf="@id/lblTotalDocks"
+            android:paddingLeft="15dp"
+            android:text="xxx"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView
+            android:id="@+id/lblBikesAvl"
+            android:text="Bike Available"
+            android:layout_below="@id/lblTotalDocks"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView
+            android:id="@+id/bikesAvl"
+            android:text="yyy"
+            android:paddingLeft="15dp"
+            android:layout_below="@+id/totalDocks"
+            android:layout_toRightOf="@id/lblBikesAvl"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
